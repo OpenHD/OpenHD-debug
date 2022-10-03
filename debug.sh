@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Check if debug file is present"
-while [test -d "/boot/OpenHD/debug"]
+while test -d "/boot/OpenHD/debug"
 do
     cd /boot/OpenHD/debug
     echo "export journalctl"

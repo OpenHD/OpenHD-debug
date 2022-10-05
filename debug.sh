@@ -23,5 +23,3 @@ do
     echo "Wait 2min for the next print everything is started"
     sleep 2m
 done
-echo "folder is missing"
-
